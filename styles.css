@@ -1,0 +1,41 @@
+#hubspot-formulaire {
+    width: 50%; /* Change la largeur à 50% du conteneur parent */
+    height: 400px; /* Limite la hauteur du formulaire */
+    overflow: auto; /* Ajoute une barre de défilement si le contenu dépasse la hauteur */
+}
+#hubspot-formulaire {
+    max-width: 600px; /* Largeur maximale */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    #hubspot-formulaire {
+        max-width: 90%; /* Largeur de 90% de l'écran sur les petits écrans */
+        height: auto; /* Hauteur automatique sur petits écrans */
+    }
+}
+/* Ajuste les champs du formulaire */
+.hs-form-field input,
+.hs-form-field textarea,
+.hs-form-field select {
+    width: 100%; /* Champs prennent toute la largeur de leur conteneur */
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Ajuste les boutons du formulaire */
+.hs-button {
+    padding: 12px 20px;
+    font-size: 16px;
+}
+.hs-form {
+    margin: 0;
+    padding: 0;
+}
+
+.hs-form-field {
+    margin-bottom: 10px; /* Réduit l'espace entre les champs */
+}
+
+
